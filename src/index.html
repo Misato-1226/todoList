@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../dist/output.css" rel="stylesheet" />
+    <title>Todo List</title>
+  </head>
+  <body class="w-100 h-screen">
+    <div
+      class="w-2/4 mx-auto border border-stone-400 bg-orange-50 h-3/4 flex flex-col items-center mt-14"
+    >
+      <h1 class="text-2xl font-semibold text-zinc-800 p-3">Todo List</h1>
+      <div>
+        <input class="new_task border border-gray-800" type="text" />
+        <button
+          class="submit bg-red-200 bg-opacity-65 text-zinc-500 rounded-md px-3 py-1 hover:bg-red-100"
+          type="button"
+        >
+          追加する
+        </button>
+      </div>
+      <ul class="task_list p-5 list-disc"></ul>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
